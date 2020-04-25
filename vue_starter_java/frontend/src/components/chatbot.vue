@@ -154,7 +154,7 @@ export default {
       phone = '+1' + phone;
       
       const accountSid = 'ACb17eece6228a5633f62b48f6052eddc5';
-      const authToken = 'f63a8c1470779bd80dd0be8ef7310b04';
+      const authToken = 'AUTH_TOKEN_HERE'; //cannot post to GitHub due to security risk
       const client = require('twilio')(accountSid, authToken);
 
       if (phone.length == 12) {
